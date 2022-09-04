@@ -1,0 +1,5 @@
+{
+    "require": {
+        "irfa/raja-ongkir": "^1.33"
+    }
+}

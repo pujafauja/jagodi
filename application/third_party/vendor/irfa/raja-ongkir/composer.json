@@ -1,0 +1,22 @@
+{
+    "name": "irfa/raja-ongkir",
+    "description": "\"Laravel Raja Ongkir Package\"",
+    "type": "package",
+    "license": "MIT",
+    "version": "v1.33",
+    "keywords": ["laravel", "ongkir", "cek ongkir", "raja ongkir", "php"],
+    "authors": [
+        {
+            "name": "Irfa A",
+            "email": "irfa.backend@protonmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+            "psr-4": {
+                "Irfa\\RajaOngkir\\": "src/"
+            }
+    }
+}
