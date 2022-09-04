@@ -14,6 +14,9 @@
 				key: apiKey
 			},
 			crossDomain: true,
+			xhrFields: {
+				'withCredentials': true // tell the client to send the cookies if any for the requested domain
+			},
 			// jsonp: 'rajaongkir'
 			success: function(res) {
 				respond = JSON.stringify(res)
